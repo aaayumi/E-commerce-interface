@@ -1,0 +1,52 @@
+ul {
+	list-style: none;
+}
+
+/* header */
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+.navbarmenu {
+	display: flex;
+	flex-direction: row;
+}
+
+.navbarmenu li {
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+}
+
+.cartbutton {
+	border: 1px solid gold;
+	width: 100px;
+	padding: 10px 10px;
+	float: right;
+}
+/* images */
+.images {
+	float: left;
+}
+
+.mainImage {
+	height: 500px;
+	width: 500px;
+}
+
+.imageList {
+	display: flex;
+	flex-direction: row;
+}
+
+.imageList li {
+	display: flex;
+	flex-direction: row;
+}
+
+.imageList li img {
+
+	height: 300px;
+	width: 200px;
+}
