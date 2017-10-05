@@ -14,12 +14,14 @@
 
 <body>
 <header>
-<div class="pricebar"></div>
+<div class="firstHeader">
+<div class="pricebar">USD▼</div>
 <h1> BONFIRE </h1>
 <div class="cartbutton">CART(3)</div>
+</div>
 
 <div class="navbar">
-<div class="dropdown"></div>
+<div class="dropdown"><img src="./img/menubutton.jpg" /></div>
 <ul class="navbarmenu">
 <li>HOME</li>
 <li>MEN</li>
@@ -28,8 +30,11 @@
 <li>ABOUT</li>
 <li>BLOG</li>
 </ul>
-<div class="favoriteIcon"><img src="#" /></div>
-<div class="searchIcon"><img src="#" /></div>
+
+<ul class="menuIcon">
+<li><div class="favoriteIcon"><img src="./img/favorite.jpg" /></div></li>
+<li><div class="searchIcon"><img src="./img/search.jpg" /></div></li>
+</ul>
 </div><!--navbar-->
 
 <div class="images">
@@ -45,19 +50,18 @@
 <div class="product">
 <p><a href="#">Back to Woman</a></p>
 <h2> The Atelier Thailored Coat </h2>
-<p><a href="#">3 Review(s)</a></p><p><a href="#">ADD A REVIEW</a></p>
+<div class="review"><p><a href="#">3 Review(s)</a></p><p><a href="#">ADD A REVIEW</a></p></div>
 <h2 class="price">$499.00</h2>
 
 <ul class="productList">
 <li>Availability: <abbr>In stock</abbr></li>
 <li>Product Code: <abbr>#4657</abbr></li>
 <li>Tags:<abbr>Fashion,Hood,Classic</abbr></li>
+</ul>
 
-<p>Blah blach blach Blah blach blach Blah blach blach Blah blach blach 
-Blah blach blach Blah blach blach Blah blach blach Blah blach blach 
-Blah blach blach Blah blach blach Blah blach blach Blah blach blach 
+<p>Blah blach blach Blah blach blach Blah blach blach blach</br> 
+Blah blach blach Blah blach blach Blah blach blach blach </br>
 </p>
-
 <ul class="productPoints">
 <li> Dark blue</li>
 <li> Regular fit </li>
@@ -66,19 +70,38 @@ Blah blach blach Blah blach blach Blah blach blach Blah blach blach
 </ul>
 
 <ul class="shoppingCart">
-<li><div>COLOR<input placeholder="Select Color" /></div></li>
-<li><div>SIZE<input placeholder="Select Size" /></div></li>
-<li><div>QTY<input placeholder="1" /></div></li>
+<li><div>COLOR</div><input placeholder="Select Color" /></li>
+<li><div>SIZE</div><input placeholder="Select Size" /></li>
+<li><div>QTY</div>
+  <select name="quantity">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  </li>
 </ul>
 
-<a href="#">CLEAR SELECTION </a>
+<div class="clear">
+<a  href="#">CLEAR SELECTION </a>
+</div>
 
 <button class="addCart"> ADD TO CART </button>
 <button class="wishlist"> ADD TO WISHLIST </button>
 
-<div class="share"></div>
+<div class="share">
+<ul class="shareButton">
+<li>SHARE THIS</li>
+<li><img src="./img/facebook.jpg" /></li>
+<li><img src="./img/twitter.jpg" /></li>
+<li><img src="./img/pinterest.jpg" /></li>
+</ul>
+</div>
 
-<footer> Made with Love and Coffee </footer>
+</div>
+</div>
+
+<footer><p> Made with Love and Coffee All rights are reserved.</p> </footer>
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 
